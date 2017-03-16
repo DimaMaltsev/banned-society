@@ -7,11 +7,9 @@ export default class App extends Component {
   render() {
     return (
 		<div className='container'>
-  			<Line />
-  			<Line />
-  			<Line />
-  			<Line />
-  			<Line />
+  			<Line label="illustrations by Icaro Olivera"/>
+  			<Line label="videos" />
+  			<Line label="music" />
 	  	</div>
     );
   }

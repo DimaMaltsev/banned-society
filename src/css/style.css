@@ -1,5 +1,5 @@
 html { 
-  background: url(../images/bg-big.png) no-repeat center center fixed; 
+  background: url(../images/bg.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -20,8 +20,19 @@ html {
 }
 
 .line {
-	width: 100%;
+	width: 90%;
 	background-color: white;
 	height: 1px;
-	margin: 25px;
+	margin: 100px;
+	position: relative;
+}
+
+.caption {
+    color: white;
+    font-size: 32px;
+    font-family: Verdana;
+    position: absolute;
+    top: -23px;
+    width: 90%;
+    text-align: right;
 }

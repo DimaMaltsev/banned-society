@@ -1,3 +1,9 @@
 import React, { Component } from 'react';
 
-export default () => <div className="line"></div>;
+import Caption from './components/caption';
+
+export default (props) => (
+	<div className="line">
+		<Caption label={props.label} />
+	</div>
+);
