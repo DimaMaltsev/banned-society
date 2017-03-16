@@ -7,40 +7,38 @@ html {
 }
 
 .container {
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	-webkit-box-align: center;
-
-	align-items: center;
-	flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 0;
 }
 
 .line {
 	width: 90%;
 	background-color: white;
 	height: 1px;
-	margin: 100px;
 	position: relative;
+	margin: 100px;
 }
 
 .caption, .link {
     color: white;
-    font-size: 32px;
     font-family: Verdana;
     position: absolute;
-    top: -23px;
 }
 
 .caption {
     width: 90%;
     text-align: right;
+    font-size: 32px;
+    top: -23px;
 }
 
 .link {
 	width: 100%;
-    text-align: center;
+    font-size: 48px;
+    text-align: left;
+    left: 10%;
+    top: -35px;
 }
