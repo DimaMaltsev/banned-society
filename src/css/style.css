@@ -27,12 +27,20 @@ html {
 	position: relative;
 }
 
-.caption {
+.caption, .link {
     color: white;
     font-size: 32px;
     font-family: Verdana;
     position: absolute;
     top: -23px;
+}
+
+.caption {
     width: 90%;
     text-align: right;
+}
+
+.link {
+	width: 100%;
+    text-align: center;
 }
