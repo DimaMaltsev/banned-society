@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default (props) => (
   <div>
     <div className="visualsHeader">
-      <p>Illustrations to 250d, 2000h were drawn by Icaro Olivera.</p>
+      <p>Illustrations to 250d, 2000h were drawn by Ícaro Oliveira.</p>
     </div>
     <div className="fbDialog">
       <p>from facebook:</p>
