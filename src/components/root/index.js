@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
   		<div className='container'>
   			<Header />
-  			<Caption label="illustrations by Icaro Olivera"/>
+  			<Caption label="visuals by Icaro Olivera"/>
   			<Caption label="videos" />
   			<Caption label="music" />
   			<Footer />
