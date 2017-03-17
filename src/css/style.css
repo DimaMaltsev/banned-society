@@ -22,7 +22,7 @@ html {
 	margin: 100px;
 }
 
-.caption, .link {
+.caption, .leftMenuItem {
     color: white;
     font-family: Verdana;
     position: absolute;
@@ -35,7 +35,7 @@ html {
     top: -23px;
 }
 
-.link {
+.leftMenuItem {
 	width: 100%;
     font-size: 48px;
     text-align: left;

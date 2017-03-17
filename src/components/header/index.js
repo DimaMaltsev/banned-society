@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
 
 export default (props) => (
-	<span className="caption">{props.label}</span>
+	<span className="leftMenuItem">250d, 2000h</span>
 );

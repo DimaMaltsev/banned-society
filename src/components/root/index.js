@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
 
-import Line from '../../components/line';
+import Header from '../../components/header';
+import Caption from '../../components/caption';
+import Footer from '../../components/footer';
 
 export default class App extends Component {
   render() {
     return (
   		<div className='container'>
-  			<Line link="250d, 2000h"/>
-    			<Line label="illustrations by Icaro Olivera"/>
-    			<Line label="videos" />
-    			<Line label="music" />
-  			<Line link="Buy"/>
+  			<Header />
+  			<Caption label="illustrations by Icaro Olivera"/>
+  			<Caption label="videos" />
+  			<Caption label="music" />
+  			<Footer />
   	  </div>
     );
   }
