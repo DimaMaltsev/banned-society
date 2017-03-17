@@ -9,7 +9,8 @@ export default (props) => (
       <p>from facebook:</p>
 
       <p>– hey! i am going to release new tracks soon. do you want to contribute some illustrations to enhance the idea? some watercolor things like this.</p>
-      <p>– Yeah man, got what you mean. Im in. I'll spend some time thinking than i can show you some Nice ideas.</p>
+      <p>– im in. will spend some time thinking than i can show you some</p>
+      <p>Nice ideas.</p>
 
       ...
 

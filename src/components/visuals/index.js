@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import X from '../x';
+
 import Header from './components/header';
 
 import flood from './images/flood.jpg';
@@ -14,6 +16,7 @@ export default class App extends Component {
   render() {
     return (
   		<div className='container'>
+        <X />
         <Header />
         <img className='image' src={flood} />
         <img className='image' src={desertcleaner} />

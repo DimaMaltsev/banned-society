@@ -36,6 +36,11 @@ html {
     top: -23px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .leftMenuItem {
 	width: 100%;
     font-size: 48px;
@@ -59,4 +64,10 @@ html {
     width: 50%;
 	margin-bottom: 100px;
 	display: inline-block;
+}
+
+.x {
+	position: fixed;
+	left: 20px;
+	top: 20px;
 }
