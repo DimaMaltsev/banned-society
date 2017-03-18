@@ -10,7 +10,7 @@ export default class App extends Component {
   		<div className='container'>
   			<Header />
   			<Caption label="visuals by Ícaro Oliveira" dest="/visuals"/>
-  			<Caption label="videos" />
+  			<Caption label="videos" dest="/videos"/>
   			<Caption label="music" />
   			<Footer />
   	  </div>

@@ -6,6 +6,10 @@ html {
   background-size: cover;
 }
 
+video {
+    cursor: pointer;
+}
+
 .container {
     font-family: Verdana;
     color: white;
@@ -79,4 +83,8 @@ a {
 	left: 35px;
 	top: 20px;
     font-size: 32px;
+}
+
+.video {
+    margin-bottom: 225px;
 }
