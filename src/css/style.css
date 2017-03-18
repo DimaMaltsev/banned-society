@@ -49,14 +49,22 @@ a {
     top: -35px;
 }
 
+.imageContainer {
+	height: 100%;
+	margin-bottom: 75px;
+}
+
 .image {
-	margin-bottom: 100px;
-	max-height:80%;
+	height: 90%;
+}
+
+.imageComment {
+    font-size: 18px;
 }
 
 .visualsHeader {
     font-size: 32px;
-    margin-bottom: 100px;
+    margin-bottom: 75px;
 }
 
 .fbDialog {
@@ -68,6 +76,7 @@ a {
 
 .x {
 	position: fixed;
-	left: 20px;
+	left: 35px;
 	top: 20px;
+    font-size: 32px;
 }
