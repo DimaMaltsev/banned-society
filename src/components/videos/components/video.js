@@ -20,7 +20,7 @@ export default class Video extends Component {
 
 	render() {
 		return (
-			<div className='video'>
+			<div className='videoClassName'>
 				<video
 			      ref={(ref) => { this.ref = ref; }}
 			      onClick={this.onClick}
@@ -28,6 +28,7 @@ export default class Video extends Component {
 			      poster={this.props.placeholder}
 			      width='80%'
 			    />
+				<p className='comment'>{this.props.comment}</p>
 		   	</div>
 	    );
 	}

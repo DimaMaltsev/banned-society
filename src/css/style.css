@@ -62,7 +62,7 @@ a {
 	height: 90%;
 }
 
-.imageComment {
+.comment {
     font-size: 18px;
 }
 
@@ -85,6 +85,6 @@ a {
     font-size: 32px;
 }
 
-.video {
+.videoClassName {
     margin-bottom: 225px;
 }

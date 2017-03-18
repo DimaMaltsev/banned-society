@@ -24,16 +24,19 @@ export default class App extends Component {
         <Video
           src={goods}
           placeholder={goodsPlaceholder}
+          comment='goods'
         />
 
         <Video
           src={nextTime}
           placeholder={nextTimePlaceholder}
+          comment='next time'
         />
 
         <Video
           src={cuddles}
           placeholder={cuddlesPlaceholder}
+          comment='cuddles'
         />
   	  </div>
     );
