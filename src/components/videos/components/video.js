@@ -26,7 +26,7 @@ export default class Video extends Component {
 			      onClick={this.onClick}
 			      src={this.props.src}
 			      poster={this.props.placeholder}
-			      width='80%'
+			      width='50%'
 			    />
 				<p className='comment'>{this.props.comment}</p>
 		   	</div>
