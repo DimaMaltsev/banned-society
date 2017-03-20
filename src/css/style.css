@@ -74,7 +74,7 @@ a {
 .fbDialog {
 	font-size: 18px;
     width: 50%;
-	margin-bottom: 100px;
+	margin-bottom: 75px;
 	display: inline-block;
 }
 
@@ -87,4 +87,9 @@ a {
 
 .videoClassName {
     margin-bottom: 225px;
+}
+
+.track {
+    margin-bottom: 75px;
+    margin-right: 75px;
 }

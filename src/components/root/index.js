@@ -11,7 +11,7 @@ export default class App extends Component {
   			<Header />
   			<Caption label="visuals by Ícaro Oliveira" dest="/visuals"/>
   			<Caption label="videos" dest="/videos"/>
-  			<Caption label="music" />
+  			<Caption label="music" dest="/music"/>
   			<Footer />
   	  </div>
     );
