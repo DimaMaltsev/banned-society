@@ -6,7 +6,7 @@ export default (props) => (
       <p>videos for 250d, 2000h</p>
     </div>
     <div className="fbDialog">
-      <p>were shot while playing with campera in taxi going home after a party</p>
+      <p>shot in taxi while playing with campera going home after some party</p>
     </div>
   </div>
 );

@@ -2,11 +2,19 @@ import React, { Component } from 'react';
 
 export default (props) => (
   <div>
+    <div className="fbDialog">
+      <p>banned society - это свои чуваки, шайка. это общество понимающих людей</p>
+      <p>человек автоматически попадает в banned society, как только находит свое понимание, с которым ему комфортно воспринимать окружающий мир, жить в гармонии с другими людьми</p>
+      <p>у каждого есть своя шайка, с которой вместе они открывают мир, находят и делят новые эмоции, знания и впечатления</p>
+    </div>
+
     <div className="visualsHeader">
       <p>250d, 2000h</p>
     </div>
     <div className="fbDialog">
-      <p>is a project by banned society. idea is to capture daily routines emoutions in music and visuals. project consists of 5 tracks EP, illustrations by Icaro and some randomly shot videos. Enjoy</p>
+      <p>250 дней и 2000 часов в среднем люди проведут на рабочих местах в 2017 году.</p>
+      <p>релиз направлен на запечатление приятных дневных рутин. чтение в трамвае по пути на работу, ланч с друзьями, чил за чашкой кофе. все жалуются на тягостные понедельники, вторники, среды, но в реальности, у каждого есть моменты любви и радости, которые люди сами для себя находят и ценят в дневных рутинах</p>
+      <p>250d, 2000h об этом</p>
     </div>
   </div>
 );
